@@ -1,0 +1,115 @@
+﻿body {
+	background-image: url("../imatges/fondo.jpg");
+	margin: 0;
+	position:relative;
+	font-family: 'Cairo', sans-serif; 
+height: 100%;
+}
+* {
+	box-sizing: border-box; /* Les mides inclouen 'padding', 'border' i el 'content' (no el margin) */
+	margin: 0;
+}
+header {
+	background-color: black;
+	color: white;
+	padding:3px;
+	text-align: center;
+	width:100%;
+	
+}
+footer {
+	height: 50px;
+	background-color: black;
+	color:white;
+	text-align: center;
+}
+content {
+	width:70%;
+	clear: both; /* sense elements flotats a la dreta i a l'esquerra */
+	display: table; /* el div es comporta com una taula:  'block', 'inline' */
+
+}
+
+#menu {
+	width: 27%;
+	float: left;
+	padding: 15px;
+	color:pink;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li {
+	padding: 8px;
+	margin-bottom: 8px;
+	background-color: black;
+	color: white;
+}
+#menu li:hover {
+	background-color: orange;
+	color: white;
+}
+#menu li:active {
+	background-color: green;
+	color: white;
+	text-decoration: underline overline;
+	font-weight:bold;
+}
+content section{
+	width: 100%;
+	float:left;
+	color:black;
+}
+content section img{
+	width: 50%;
+	float:left;
+}
+content section p{
+	width:50%;
+	float:left;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.wbg {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../imatges/gif.gif) center no-repeat #fff;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+
+}
+#imgcamp1{
+	float:right;
+	width:73%;
+}
+#imgcamp1 img{
+width:50%;
+float:left;
+}
+#imgcamp1 p{
+float:right;
+width:50%;
+}	
+#imgcamp2{
+	float:right;
+	width:73%;
+}
